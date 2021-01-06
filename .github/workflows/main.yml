@@ -1,6 +1,6 @@
 const $ = new Env("获取互助码");
 const JD_API_HOST = "https://api.m.jd.com/client.action";
-let cookiesArr = [], cookie = '', message;
+let cookiesArr = [], cookie = 'pt_key=AAJf8ri0ADCIIwNhmZIAFlhxUERXKld5H2dBGxLZqymPEqRQ2FvZ2WjODe_5Y_c3O2SXKRD2_b0; pt_pin=jd_DAfhsUQAxvZi;', message;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 !function (n) {
   "use strict";
